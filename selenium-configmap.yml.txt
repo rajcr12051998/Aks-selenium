@@ -1,0 +1,6 @@
+kubectl apply -f selenium-namespace.yaml
+kubectl apply -f selenium-hub-deployment.yaml
+kubectl apply -f selenium-node-chrome-deployment.yaml
+kubectl apply -f selenium-node-edge-deployment.yaml
+kubectl apply -f selenium-node-firefox-deployment.yaml
+kubectl apply -f selenium-configmap.yaml  # Optional if using a ConfigMap
